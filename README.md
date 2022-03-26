@@ -49,7 +49,7 @@ weights.
 
 If you would like to fix the weights of multiple PAUs in a `nn.Module` just call `module = pau.freeze_pau(module)`.
 
-For a more detailed examples on who to use this implementation please refer to the [example](examples.py) file.
+For a more detailed examples on who to use this implementation please refer to the [example](example.py) file.
 
 The PAU takes the following parameters.
 
