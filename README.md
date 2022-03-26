@@ -35,7 +35,7 @@ network: nn.Module = nn.Sequential(
 output: torch.Tensor = network(torch.rand(16, 2))
 ````
 
-The PAU is implemented in an efficient way (checkpointing and sequential computation), if you want to use the faster but
+The PAU is implemented in an efficient way (checkpointing and sequential computation of Vandermonde matrix), if you want to use the faster but
 more memory intensive version please use `PAU(efficient=False)`
 
 If a nominator degree of 5 and a denominator degree of 4 is used the following initializations are available:
