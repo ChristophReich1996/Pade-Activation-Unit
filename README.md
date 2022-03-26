@@ -2,9 +2,9 @@
 
 Unofficial **PyTorch** reimplementation of the
 paper [Padé Activation Units: End-to-end Learning of Flexible Activation Functions in Deep Networks](https://openreview.net/pdf?id=BJlBSkHtDS)
-by Molina et al. published at ICLR 2020.
+by Molina et al., published at ICLR 2020.
 
-**This repository includes a pure and easy to use PyTorch implementation of the Padé Activation Unit (PAU).**
+**This repository includes a easy-to-use and pure PyTorch implementation of the Padé Activation Unit (PAU).**
 
 Please note that the [official implementation](https://github.com/ml-research/pau) provides a probably faster CUDA
 implementation!
