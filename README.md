@@ -44,8 +44,8 @@ slope=0.2 (`initial_shape=leaky_relu_0_2`), Leaky ReLU negative slope=0.25 (`ini
 negative slope=0.3 (`initial_shape=leaky_relu_0_3`), Leaky ReLU negative slope=-0.5 (`initial_shape=leaky_relu_m0_5`),
 Tanh (`initial_shape=tanh`), Swish (`initial_shape=swish`), Sigmoid (`initial_shape=sigmoid`).
 
-If a different nominator and denominator degree or `initial_shape=None` us utilized the PAU is initialized with random
-weights/shape.
+If a different nominator and denominator degree or `initial_shape=None` is utilized the PAU is initialized with random
+weights.
 
 If you would like to fix the weights of multiple PAUs in a `nn.Module` just call `module = pau.freeze_pau(module)`.
 
