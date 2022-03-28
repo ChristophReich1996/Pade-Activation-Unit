@@ -1,5 +1,7 @@
 # Padé Activation Units: End-to-end Learning of Flexible Activation Functions in Deep Networks
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ChristophReich1996/Pade-Activation-Unit/blob/master/LICENSE)
+
 Unofficial **PyTorch** reimplementation of the
 paper [Padé Activation Units: End-to-end Learning of Flexible Activation Functions in Deep Networks](https://openreview.net/pdf?id=BJlBSkHtDS)
 by Molina et al., published at ICLR 2020.
